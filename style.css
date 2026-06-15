@@ -38,15 +38,27 @@ font-weight:bold;
 }
 
 .hero{
-background:#0055aa;
-color:white;
-padding:100px 0;
+    background:
+    linear-gradient(
+    rgba(0,51,102,0.65),
+    rgba(0,51,102,0.65)
+    ),
+    url('Double Width Mobile Scaffolds.jpg');
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    color:white;
+    padding:180px 0;
 }
 
 .hero h2{
-font-size:48px;
-margin-bottom:15px;
+    font-size:52px;
+    margin-bottom:20px;
 }
+
+.hero p{
 
 .btn{
 display:inline-block;
