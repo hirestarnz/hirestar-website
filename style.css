@@ -38,7 +38,7 @@ header .container{
 .logo-group{
     display:flex;
     align-items:center;
-    gap:15px;
+    gap:60px;
     flex-shrink:0;
 }
 
