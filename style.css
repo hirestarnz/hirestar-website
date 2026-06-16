@@ -334,44 +334,76 @@ footer{
 ```css
 /* PRODUCTS PAGE */
 
+/* =====================================
+   PRODUCTS PAGE
+===================================== */
+
 .page-intro{
     max-width:1000px;
-    margin-bottom:40px;
+    margin-top:15px;
+    margin-bottom:20px;
+}
+
+.product-category{
+    margin-bottom:70px;
 }
 
 .category-intro{
     max-width:1000px;
-    margin-bottom:25px;
+    margin-bottom:30px;
 }
 
-.product-grid{
+/* 产品列表 */
+
+.product-list{
     display:grid;
-    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
-    gap:30px;
+    grid-template-columns:repeat(3,1fr);
+    gap:40px;
     margin-top:30px;
 }
+
+/* 单个产品 */
 
 .product-item{
     text-align:center;
 }
 
 .product-item img{
-    width:220px;
-    height:180px;
+    width:100%;
+    max-width:260px;
+    height:220px;
     object-fit:contain;
     display:block;
     margin:0 auto;
 }
 
 .product-item a{
-    display:block;
     text-decoration:none;
+}
+
+.product-item h3{
     color:#003366;
+    font-size:20px;
     font-weight:600;
     margin-top:12px;
 }
 
-.product-item a:hover{
+.product-item:hover h3{
     color:#ff9900;
 }
-```
+
+/* 手机版 */
+
+@media(max-width:768px){
+
+    .product-list{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .product-item img{
+        max-width:220px;
+        height:180px;
+    }
+
+}
