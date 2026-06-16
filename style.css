@@ -17,14 +17,12 @@ body{
     margin:0 auto;
 }
 
-/* =====================
-   HEADER
-===================== */
+/* HEADER */
 
 header{
     background:#ffffff;
     border-bottom:1px solid #e5e5e5;
-    padding:6px 0;
+    padding:5px 0;
 }
 
 header .container{
@@ -33,6 +31,8 @@ header .container{
     justify-content:space-between;
 }
 
+/* LOGOS */
+
 .logo-group{
     display:flex;
     align-items:center;
@@ -40,66 +40,61 @@ header .container{
 }
 
 .hirestar-logo{
-    height:90px;
+    height:75px;
     width:auto;
 }
 
 .scafeast-logo{
-    height:75px;
+    height:65px;
     width:auto;
 }
 
 .logo-divider{
     width:1px;
-    height:50px;
+    height:45px;
     background:#cccccc;
 }
 
-/* =====================
-   NAVIGATION
-===================== */
+/* NAVIGATION */
 
 nav{
     display:flex;
-    gap:40px;
+    gap:35px;
+    margin-left:auto;
 }
 
 nav a{
     color:#003366;
     text-decoration:none;
     font-weight:600;
-    font-size:18px;
+    font-size:17px;
 }
 
 nav a:hover{
     color:#ff9900;
 }
 
-/* =====================
-   HERO
-===================== */
+/* HERO */
 
 .hero{
     background:#0055aa;
     color:white;
-    padding:90px 0;
+    padding:80px 0;
 }
 
 .hero h1{
-    font-size:52px;
-    line-height:1.2;
-    margin-bottom:25px;
+    font-size:46px;
+    line-height:1.25;
+    margin-bottom:20px;
     max-width:900px;
 }
 
 .hero p{
-    font-size:24px;
-    margin-bottom:12px;
+    font-size:22px;
+    margin-bottom:10px;
 }
 
-/* =====================
-   CONTENT SECTIONS
-===================== */
+/* SECTIONS */
 
 .section{
     padding:80px 0;
@@ -108,21 +103,19 @@ nav a:hover{
 .section h2{
     font-size:42px;
     color:#003366;
-    margin-bottom:30px;
+    margin-bottom:25px;
 }
 
 .section p{
     font-size:18px;
-    margin-bottom:12px;
+    margin-bottom:10px;
 }
 
 .light{
     background:white;
 }
 
-/* =====================
-   WHY CHOOSE US
-===================== */
+/* WHY CHOOSE */
 
 .card-grid{
     display:grid;
@@ -139,9 +132,7 @@ nav a:hover{
     font-weight:600;
 }
 
-/* =====================
-   PRODUCTS
-===================== */
+/* PRODUCTS */
 
 .product-grid{
     display:grid;
@@ -179,9 +170,7 @@ nav a:hover{
     margin-bottom:8px;
 }
 
-/* =====================
-   CONTACT
-===================== */
+/* CONTACT */
 
 form{
     max-width:700px;
@@ -210,9 +199,7 @@ button:hover{
     background:#e68a00;
 }
 
-/* =====================
-   FOOTER
-===================== */
+/* FOOTER */
 
 footer{
     background:#003366;
@@ -222,9 +209,7 @@ footer{
     margin-top:50px;
 }
 
-/* =====================
-   MOBILE
-===================== */
+/* MOBILE */
 
 @media(max-width:768px){
 
@@ -240,15 +225,15 @@ footer{
     }
 
     .hirestar-logo{
-        height:65px;
+        height:60px;
     }
 
     .scafeast-logo{
-        height:55px;
+        height:50px;
     }
 
     .logo-divider{
-        height:35px;
+        height:30px;
     }
 
     .hero{
@@ -256,7 +241,7 @@ footer{
     }
 
     .hero h1{
-        font-size:34px;
+        font-size:32px;
     }
 
     .hero p{
