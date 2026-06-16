@@ -331,3 +331,46 @@ footer{
     font-size:18px;
     color:#003366;
 }
+/* PRODUCTS PAGE */
+
+.product-category{
+    margin-bottom:70px;
+}
+
+.category-intro{
+    margin-bottom:30px;
+    max-width:1000px;
+}
+
+.product-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+    margin-top:30px;
+}
+
+.product-item{
+    text-align:center;
+}
+
+.product-item img{
+    width:100%;
+    max-width:220px;
+    height:180px;
+    object-fit:contain;
+    margin:auto;
+    display:block;
+}
+
+.product-item a{
+    text-decoration:none;
+    color:#003366;
+    font-weight:600;
+    font-size:20px;
+    display:block;
+    margin-top:12px;
+}
+
+.product-item a:hover{
+    color:#ff9900;
+}
