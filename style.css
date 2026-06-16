@@ -21,8 +21,8 @@ body{
 /* HEADER */
 
 header{
-    background:white;
-    border-bottom:1px solid #ddd;
+    background:red !important;
+    border-bottom:5px solid yellow !important;
 }
 
 header .container{
