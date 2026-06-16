@@ -471,4 +471,143 @@ PROJECTS MOBILE
 ```
 
 }
+/* =====================
+PROJECTS
+===================== */
+
+.project-item{
+max-width:900px;
+margin:0 auto 80px;
+text-align:center;
+}
+
+.project-item h3{
+color:#003366;
+font-size:28px;
+margin-bottom:20px;
+}
+
+.project-cover{
+display:block;
+}
+
+.project-cover img{
+
+```
+width:100%;
+max-width:800px;
+
+height:450px;
+
+object-fit:cover;
+
+border-radius:10px;
+
+box-shadow:0 2px 15px rgba(0,0,0,.12);
+
+transition:.3s;
+```
+
+}
+
+.project-cover img:hover{
+transform:scale(1.02);
+}
+
+.project-count{
+
+```
+margin-top:15px;
+
+color:#666;
+
+font-size:16px;
+```
+
+}
+
+.project-item hr{
+
+```
+margin-top:60px;
+
+border:none;
+
+border-top:1px solid #ddd;
+```
+
+}
+
+/* =====================
+LIGHTBOX
+===================== */
+
+#lightbox{
+
+```
+display:none;
+
+position:fixed;
+
+top:0;
+left:0;
+
+width:100%;
+height:100%;
+
+background:rgba(0,0,0,.92);
+
+justify-content:center;
+align-items:center;
+
+z-index:9999;
+```
+
+}
+
+#lightbox img{
+
+```
+max-width:90%;
+max-height:90%;
+
+border-radius:8px;
+```
+
+}
+
+#close-lightbox{
+
+```
+position:absolute;
+
+top:20px;
+right:40px;
+
+color:white;
+
+font-size:50px;
+
+cursor:pointer;
+```
+
+}
+
+/* =====================
+PROJECTS MOBILE
+===================== */
+
+@media(max-width:768px){
+
+```
+.project-item h3{
+    font-size:22px;
+}
+
+.project-cover img{
+    height:auto;
+}
+```
+
+}
 
