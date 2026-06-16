@@ -242,3 +242,26 @@ footer{
 
 }
 ```
+/* Logo Group */
+
+.logo-group{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.logo-divider{
+    width:1px;
+    height:60px;
+    background:rgba(255,255,255,0.5);
+}
+
+.hirestar-logo{
+    height:90px;
+    width:auto;
+}
+
+.scafeast-logo{
+    height:80px;
+    width:auto;
+}
