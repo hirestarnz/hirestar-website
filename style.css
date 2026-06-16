@@ -329,3 +329,34 @@ nav{
 ```
 
 }
+/* PROJECTS */
+
+.project-item{
+    margin-bottom:80px;
+}
+
+.project-gallery{
+    display:flex;
+    gap:15px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.project-gallery img{
+    width:100%;
+    max-width:380px;
+    height:280px;
+    object-fit:cover;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.project-gallery img:hover{
+    transform:scale(1.03);
+}
+
+.project-item h3{
+    text-align:center;
+    margin-top:20px;
+    color:#003366;
+}
