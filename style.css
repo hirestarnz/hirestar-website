@@ -38,8 +38,7 @@ header .container{
 .logo-group{
     display:flex;
     align-items:center;
-    gap:100px;
-    flex-shrink:0;
+    gap:30px;
 }
 
 .hirestar-logo{
@@ -50,6 +49,7 @@ header .container{
 .scafeast-logo{
     height:70px;
     width:auto;
+    margin-left:15px;
 }
 
 .logo-divider{
