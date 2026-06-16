@@ -13,8 +13,8 @@ body{
 }
 
 .container{
-    width:90%;
-    max-width:1200px;
+    width:95%;
+    max-width:1400px;
     margin:auto;
 }
 
@@ -22,7 +22,7 @@ body{
 
 header{
     background:#003366;
-    padding:25px 0;
+    padding:10px 0;
 }
 
 header .container{
@@ -30,16 +30,20 @@ header .container{
     justify-content:space-between;
     align-items:center;
     flex-wrap:wrap;
+    header .container{
+    padding-left:0;
+}
 }
 
 .logo img{
-    height:140px;
+    height:80px;
     width:auto;
 }
 
 nav{
     display:flex;
-    gap:25px;
+    gap:40px;
+    margin-left:auto;
 }
 
 nav a{
