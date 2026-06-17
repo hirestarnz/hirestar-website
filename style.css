@@ -607,3 +607,46 @@ PROJECTS MOBILE
 
 }
 
+/* =====================
+APPLICATIONS PAGE
+===================== */
+
+.application-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:40px;
+    margin-top:30px;
+}
+
+.application-card{
+    background:#ffffff;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 2px 15px rgba(0,0,0,.08);
+}
+
+.application-card img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    display:block;
+}
+
+.application-card h3{
+    padding:20px 20px 10px;
+    color:#003366;
+    margin:0;
+}
+
+.application-card p{
+    padding:0 20px 20px;
+    margin:0;
+}
+
+@media(max-width:768px){
+
+    .application-grid{
+        grid-template-columns:1fr;
+    }
+
+}
